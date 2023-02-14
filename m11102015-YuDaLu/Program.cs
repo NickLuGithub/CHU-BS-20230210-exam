@@ -73,11 +73,6 @@ namespace m11102015_YuDaLu
                         inputInt /= 10;
                     }
 
-                    for(int i = 0; i < 4; i++)
-                    {
-                        Console.WriteLine($"{input[i]}, {number[i]}");
-                    }
-
                     /*
                     for (int i = 0; i < n; i++)
                     {
@@ -106,6 +101,12 @@ namespace m11102015_YuDaLu
                     Console.Write("判定結果是");
                     Console.Write(Convert.ToString(A) + "A");
                     Console.Write(Convert.ToString(B) + "B");
+                    
+                    Console.WriteLine("\n左邊 input, 右邊 number");
+                    for (int i = 0; i < 4; i++)
+                    {
+                        Console.WriteLine($"\n{input[i]}, {number[i]}");
+                    }
 
                     if (A == 4)
                     {
