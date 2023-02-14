@@ -102,11 +102,12 @@ namespace m11102015_YuDaLu
                     Console.Write(Convert.ToString(A) + "A");
                     Console.Write(Convert.ToString(B) + "B");
                     
-                    Console.WriteLine("\n左邊 input, 右邊 number");
-                    for (int i = 0; i < 4; i++)
-                    {
-                        Console.WriteLine($"\n{input[i]}, {number[i]}");
-                    }
+                    // 開外掛
+                    //Console.WriteLine("\n左邊 input, 右邊 number");
+                    //for (int i = 0; i < 4; i++)
+                    //{
+                    //    Console.WriteLine($"\n{input[i]}, {number[i]}");
+                    //}
 
                     if (A == 4)
                     {
